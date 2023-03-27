@@ -7,10 +7,10 @@ let nombresFila = ["Sofia", "David", "Juan",];
 console.log(nombresFila);
 
 // Parte 2
+nombresFila.shift();
 nombresFila.push("Sara", "Agustin");
 console.log(nombresFila);
-nombresFila.shift();
-console.log(nombresFila);
+
 
 //Parte 3
 nombresFila.push("Elena");
